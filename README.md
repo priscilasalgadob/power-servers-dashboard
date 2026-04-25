@@ -17,13 +17,16 @@ A business intelligence report built in **Microsoft Power BI** that provides a c
 
 ## 🖼️ Dashboard Preview
 
-### Page 1 — Shipments & Orders Overview
+### Page 1 — Shipped vs. Ordered by Month & Serial Control
+Monthly bar chart comparing **Shipped Quantity vs. SO Ordered Quantity** across 2023–2025, with a 200-unit reference line. Includes a breakdown by **Serial Control type** (At Receipt vs. None).
 ![Dashboard Page 1](powerbiPwrServers1.png)
 
-### Page 2 — Forecast Analysis
+### Page 2 — Shipped vs. Ordered Difference & Detail Table
+Line chart showing the **difference between shipped and ordered quantities** over time (2023–2025) with a forecast trend through 2027. Includes a granular data table with Sales Order Numbers, quantities, and month-level detail.
 ![Dashboard Page 2](powerbiPwrServers2.png)
 
-### Page 3 — Serial Control Requirements
+### Page 3 — Shipment Forecast (2026–2027)
+Time series of **Sum of Shipped Quantity** from 2023 to 2025 with a **Power BI forecast** projecting into 2026–2027. KPI cards highlight forecast totals: **1.17K (2026)** and **1.24K (2027)**. Filterable by Serial Control and Year.
 ![Dashboard Page 3](powerbiPwrServers3.png)
 
 ---
@@ -87,21 +90,4 @@ power-servers-dashboard/
 3. Go to **File → Open report** and select `Power servers.pbix`
 4. If the data source paths have changed, go to **Home → Transform data → Data source settings** and update the paths accordingly
 
-> **Note:** If the report is connected to a live data source (SQL Server, SharePoint, etc.), ensure you have the appropriate credentials and network access before opening.
-
----
-
-## 📌 Key Insights
-
-- Tracks **3 full years** of server shipment and order volume to reveal seasonal patterns and long-term trends
-- Forecast view enables proactive planning by projecting demand into upcoming periods
-- Serial control comparison surfaces compliance gaps that would otherwise require manual reconciliation
-- Designed to be a decision-support tool for supply chain, procurement, and operations teams
-
----
-
-## 👤 Author
-
-**Priscila Salgado**
-- 📧 priscisb09@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/priscila-salgado-84914615b)
+> **Note:** If the report is 
