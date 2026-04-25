@@ -90,4 +90,21 @@ power-servers-dashboard/
 3. Go to **File → Open report** and select `Power servers.pbix`
 4. If the data source paths have changed, go to **Home → Transform data → Data source settings** and update the paths accordingly
 
-> **Note:** If the report is 
+> **Note:** If the report is connected to a live data source (SQL Server, SharePoint, etc.), ensure you have the appropriate credentials and network access before opening.
+
+---
+
+## 📌 Key Insights
+
+- Tracks **3 full years** of server shipment and order volume to reveal seasonal patterns and long-term trends
+- Forecast view enables proactive planning by projecting demand into upcoming periods
+- Serial control comparison surfaces compliance gaps that would otherwise require manual reconciliation
+- Designed to be a decision-support tool for supply chain, procurement, and operations teams
+
+---
+
+## 👤 Author
+
+**Priscila Salgado**
+- 📧 priscisb09@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/priscila-salgado-84914615b)
