@@ -63,37 +63,6 @@ Time series of **Sum of Shipped Quantity** from 2023 to 2025 with a **Power BI f
 
 ---
 
-## 📁 Project Structure
-
-```
-power-servers-dashboard/
-│
-├── Power servers.pbix          # Main Power BI report file
-├── powerbiPwrServers1.png      # Dashboard screenshot — Page 1
-├── powerbiPwrServers2.png      # Dashboard screenshot — Page 2
-├── powerbiPwrServers3.png      # Dashboard screenshot — Page 3
-└── README.md
-```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free download)
-
-### Opening the Report
-
-1. Clone or download this repository
-2. Open **Power BI Desktop**
-3. Go to **File → Open report** and select `Power servers.pbix`
-4. If the data source paths have changed, go to **Home → Transform data → Data source settings** and update the paths accordingly
-
-> **Note:** If the report is connected to a live data source (SQL Server, SharePoint, etc.), ensure you have the appropriate credentials and network access before opening.
-
----
-
 ## 📌 Key Insights
 
 - Tracks **3 full years** of server shipment and order volume to reveal seasonal patterns and long-term trends
